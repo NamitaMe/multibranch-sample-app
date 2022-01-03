@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'hello from build'
+        echo 'hello from build from the fix branch'
       }
     }
   }
